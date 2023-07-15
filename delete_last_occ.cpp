@@ -113,6 +113,7 @@ void find_mid()
 
 void delete_last_occuernce()
 {
+  //declaring all the nodes in delete last occuerence function		
   node *prev = NULL;
   node *marker = head;
   node *first = head;
