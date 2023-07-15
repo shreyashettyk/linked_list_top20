@@ -149,6 +149,7 @@ void delete_last_occuernce()
        }
     if(marker->next == NULL)
           {
+			    cout<<"hello this is linked list""<<endl
                 target = marker;
                 delete target;
                 prev->next = follow;
